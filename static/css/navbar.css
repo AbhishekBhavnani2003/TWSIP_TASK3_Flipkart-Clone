@@ -1,0 +1,42 @@
+
+/* navbar  */
+.navbar {
+    display: flex;
+    height: 100px;
+    padding: 20px;
+    margin-top: -40px;
+    width: 103%;
+    margin-left: -70px;
+    background-color: rgb(252, 252, 252);
+    margin-bottom: -40px;
+}
+ 
+.login , .cart , .seller , .dot , .search , .logo
+{
+        display: flex;
+        align-items: center;
+        padding: 30px;
+        cursor: pointer;
+
+}
+
+
+
+#search
+{
+  margin-left: -40px;
+  
+}
+
+input
+{
+    width: 250px;
+    padding: 12px 20px;
+    background-color:rgb(228, 228, 255) ;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}

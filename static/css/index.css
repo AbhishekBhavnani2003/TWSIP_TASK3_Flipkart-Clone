@@ -1,0 +1,255 @@
+body{
+  background-color: whitesmoke;
+}
+
+
+
+/* navbar  */
+.navbar {
+    display: flex;
+    height: 100px;
+    padding: 20px;
+    margin-top: -40px;
+    width: 103%;
+    margin-left: -70px;
+    background-color: rgb(252, 252, 252);
+    margin-bottom: -40px;
+}
+ 
+.login , .cart , .seller , .dot , .search , .logo
+{
+        display: flex;
+        align-items: center;
+        padding: 40px;
+        cursor: pointer;
+} 
+
+
+.navbar a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+#search
+{
+  margin-left: -40px;
+  
+}
+
+input
+{
+    width: 250px;
+    padding: 12px 20px;
+    background-color:rgb(228, 228, 255) ;
+}
+
+/* categories */
+
+.categories
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin-top: 50px;
+  height: 150px;
+  background-color: rgb(252, 252, 252);
+}
+
+.category1 {
+  margin: 10px;
+  padding: 15px;
+  border: 2px solid rgb(176, 175, 175);
+}
+
+.category1 h5 
+{
+  text-align: center;
+}
+
+
+.category1 a 
+{
+  text-decoration: none;
+  color: black;
+}
+
+
+#category1i
+{
+  border: none;
+}
+
+/* slider  */
+
+
+.slider {
+  /* background-color: blue ; */
+  height: 400px;
+  /* margin-top: 50px; */
+
+}
+
+
+.navigationbutton .previous {
+
+  position: absolute;
+  z-index: 10;
+  font-size: 25px;
+  color: white;
+  top: 30%;
+  left: 15px;
+  font-weight: 500;
+}
+
+.navigationbutton .next {
+
+  position: absolute;
+  z-index: 10;
+  font-size: 25px;
+  top: 30%;
+  right: 15px;
+  font-weight: 500;
+}
+
+.navigationbutton .navbutton {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(252, 252, 252);
+  color: black;
+  margin-top: 300px;
+  opacity: 0.5;
+
+}
+
+.navigationbutton .navbutton:hover {
+  background: white;
+}
+
+.sliderphotos {
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+.sliderphotos img {
+  min-width: 330%;
+  transition: all 0.3s ease;
+  height: 400px;
+  width: 377px;
+}
+
+
+.images {
+  position: absolute;
+  display: none;
+}
+
+.main {
+  display: block;
+}
+
+
+/* main section 1 */
+
+.mainsection1
+{
+  height: 400px;
+  background-color: rgb(252, 252, 252);
+  margin-top: 50px;
+  
+}
+
+.mainsection1 #lists
+{
+  cursor: pointer;
+}
+
+.mainsection1 h3
+{
+  margin-bottom: 30px;
+} 
+
+.category2
+{
+  display: flex;
+}
+
+
+
+
+
+/* posters  */
+
+
+.poster
+{
+  margin-top: 100px;
+}
+#poster
+{
+  width: 1200px;
+  margin-left: 20px;
+
+
+}
+
+
+/* footer */
+
+.footer
+{
+  background-color: black;
+  height: 400px;
+  margin-top: 100px;
+  display: flex;
+  color: white;
+}
+
+#lists 
+{
+  margin: 20px;
+  padding: 20px;
+}
+
+#lists h3{
+  color: grey;
+}
+
+#lists h5{
+  font-size: 15px;
+}
+ 
+/* footer2 */
+
+.footer2
+{
+  height: 100px;
+  border-top:2px solid  grey;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.cart
+{
+  cursor: pointer;
+}
+
+
+#f2
+{
+  color: white;
+}
+
+#f2 img
+{
+   filter: invert(100%);
+}

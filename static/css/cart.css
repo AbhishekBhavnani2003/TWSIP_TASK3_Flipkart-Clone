@@ -1,0 +1,75 @@
+#cart-container
+{
+    background-color: rgb(252 252 252);
+    text-align: justify;
+    padding: 20px;
+    width: 60%;
+    float: right;
+    height: 400px;
+}
+
+
+
+#cart-container p 
+{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin: 20px;
+}
+
+
+#cart-container li
+{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 15px;
+   
+}
+
+
+h2
+{
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    background-color: aliceblue;
+    height: 70px;
+    padding: 30px;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.image img
+{
+    height: 400px;
+    width: 400px ;
+    float: left;
+    margin-top: 50px;
+}
+
+.endfooter
+{
+
+    margin-top: 100px;
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#btn
+{
+    background-color: rgb(252 252 252) ;
+    margin-top: 10px;
+     
+}
+
+#btn button
+{
+    padding: 10px;
+    margin: 50px;
+
+}

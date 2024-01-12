@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/static/css/login.css">
+    <iframe src="navbar.html" width="100%" height="200px" frameborder="0"></iframe>
+</head>
+<body>
+
+    <div class="login">
+
+        <div class="column" id="column1">
+
+            <h1>Login</h1>
+
+            <p>Get access to your Orders, <br>
+               Wishlist and Recommendations
+            </p>
+
+        </div>
+        <div class="column" id="column2">
+
+            <form action="/login" method="post">
+          <input type="email" placeholder=" Enter Email " name="email" id="email" required>
+
+           <p> By continuing, you agree to Flipkart's Terms of Use and Privacy Policy. </p>  
+
+           <button type="submit"> Continue </button>
+           <br>
+
+        </form>
+
+          <a  href="register.html">New to Flipkart? Create an account</a>
+        </div>
+
+    </div>
+        
+    <script src="/app.js" defer></script>
+</body>
+</html>

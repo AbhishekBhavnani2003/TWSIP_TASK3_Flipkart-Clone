@@ -1,0 +1,198 @@
+body {
+   background-color: whitesmoke;
+  }
+
+  /* navbar */
+  .navbar {
+    height: 900px;
+    padding: 10px;
+    margin-top: 0;
+    width: 100%;
+    margin-left: 0;
+    flex-direction: column;
+    margin-bottom: 200px;
+    align-items: flex-start ;
+    width: 400%;
+  }
+
+
+  .navbar a   
+  {
+    font-size: 40px;
+  }
+  .navbar h4
+  {
+    font-size:40px;
+  }
+
+  .login, .cart, .seller, .dot, .search, .logo {
+    padding: 25px;
+    align-items: center;
+    margin-left: 500px;
+  }
+
+
+  .navigationbutton
+  {
+    display: none;
+  }
+  input {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  /* categories */
+  .categories {
+    padding: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: flex-end;
+    width: 400%;
+    margin-bottom: 200px;
+  }
+
+  .category1 {
+    flex: 0 0 calc(50% - 100px);
+    margin: 5px;
+    box-sizing: border-box; 
+    max-width: 100%;
+    height: auto;
+  }
+
+  .category1 img
+  {
+    width: 300px;
+    height: 300px;
+  }
+
+
+  .category1 h5
+  {
+    font-size: 30px;
+    text-align: justify;
+    margin-left: 90px;
+  }
+
+  /* slider */
+  .slider {
+    height: 200px;
+    margin-bottom: 500px;
+  }
+
+
+
+  .sliderphotos img
+  {
+    width: 400%;
+  }
+
+  .navigationbutton .previous, .navigationbutton .next, .navigationbutton .navbutton {
+    font-size: 16px;
+    margin-top: 100px;
+  }
+
+  /* main section 1 */
+  .mainsection1 {
+    margin-top: 100px;
+    margin-bottom: 3000px;
+    height: 600px;
+    background-color: initial;
+  }
+
+  .mainsection1 h3
+  {
+    text-align: center;
+    font-size: 70px;
+    width: 400%;
+    padding: 30px;
+  }
+
+  .mainsection1 img
+  {
+    padding: 80px;
+    margin-left: 50px;
+  }
+
+  .mainsection1 h5 
+  {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .mainsection1 .category1
+  {
+    padding: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+  }
+
+
+  /* posters */
+  .poster {
+    margin-top: 30px;
+  }
+
+  #poster {
+    width: 400%;
+    margin-left: -20px;
+  }
+
+  /* footer */
+  .footer {
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+
+  #lists {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  #lists h5 {
+    font-size: 30px;
+    text-align: justify;
+    padding: 20px;
+    margin-left: 30px;
+  }
+
+  /* footer2 */
+  .footer2 {
+    width: 400%;
+    display: none;
+    flex-direction: column;
+    height: 400px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+  }
+
+  .footer2 .cart
+  {
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer2 .cart h4 
+  {
+    margin: 10px;
+    text-align: justify;
+    padding: 10px;
+  }
+
+
+  .footer{
+    flex-direction: column;
+    width: 400%;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+  }
+
+#lists h3
+{
+  margin: 10px;
+    text-align: justify;
+    padding: 10px;
+}
